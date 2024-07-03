@@ -86,13 +86,14 @@ h5{
 }
 
 p{
-	letter-spacing: 0.02em;
 	line-height: 1.65;
 	font-weight: 400;
 }
 
-p.hide{
-	display: none;
+.hide_title,p.hide{
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
 }
 
 p.gold{
@@ -2128,4 +2129,12 @@ section.section_page{
 		margin: auto;
 	}
 }
+
+@media screen and (min-width: 1600px){
+	html,body{
+		font-size: 1vw;
+		letter-spacing: 0.05em;
+	}
+}
+
 
